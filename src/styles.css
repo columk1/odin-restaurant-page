@@ -43,7 +43,7 @@ button {
 body {
   margin: 5rem auto 5rem;
   font-size: calc(0.5em + 1vw);
-  font-family: 'El Messiri';
+  font-family: 'El Messiri', sans-serif;
   background-color: var(--blue);
   display: grid;
   place-items: center;
