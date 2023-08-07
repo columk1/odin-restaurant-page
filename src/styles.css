@@ -210,10 +210,20 @@ footer {
 
 @media (max-width: 800px) {
   body {
+    width: 100vw;
     font-size: calc(0.75 * 1rem);
+    margin: 2rem auto;
   }
   #content {
-    width: 100vw;
+    width: 100%;
+    min-height: 90vh;
+  }
+  header {
+    display: block;
+    margin: 0 auto 2rem;
+  }
+  header h1 {
+    text-align: center;
   }
   main,
   #home,
